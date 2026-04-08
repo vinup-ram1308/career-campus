@@ -62,25 +62,45 @@ The system uses a sophisticated multi-agent orchestration pattern built with the
 
 
 
-## 🛠️ Tech Stack
+## 🧠 Tech Stack & Infrastructure
 
+### ⚙️ Core Intelligence
+- **LLM Engine**: Gemini 2.5 Flash  
+- **Agent Framework**: Google ADK (Agent Development Kit)  
+- **Architecture Pattern**: Multi-Agent Orchestration (Root + Specialized Sub-Agents)
 
+### ☁️ Cloud & Deployment
+- **Platform**: Google Cloud Platform (GCP)  
+- **Compute**: Cloud Run (Serverless Containers)  
+- **API Layer**: FastAPI  
+- **Containerization**: Docker  
 
-| Component | Technology |
+### 📊 Data & Intelligence Layer
+- **Data Warehouse**: BigQuery  
+- **Datasets**:
+  - `market_signals` → Real-time job trends  
+  - `user_profile` → User skill data  
+  - `learning_sprints` → Generated plans  
 
-| :--- | :--- |
+### 🧰 Backend & Runtime
+- **Language**: Python 3.12  
+- **Environment Management**: pip + virtualenv  
+- **API Communication**: REST  
 
-| **LLM** | Gemini 2.5 Flash |
+---
 
-| **Agent Framework** | Google ADK (Agent Development Kit) |
+### 🚀 Technology Overview
 
-| **Data Warehouse** | Google BigQuery |
-
-| **API Framework** | FastAPI |
-
-| **Deployment** | Google Cloud Run |
-
-| **Language** | Python 3.12 |
+| Layer | Technology | Purpose |
+|------|--------|--------|
+| 🧠 **AI Engine** | Gemini 2.5 Flash | Fast, scalable reasoning for agent decisions |
+| 🤖 **Agent Orchestration** | Google ADK | Multi-agent coordination & tool usage |
+| ☁️ **Cloud Platform** | Google Cloud Platform | Fully managed infrastructure |
+| 🚀 **Backend API** | FastAPI | High-performance async API layer |
+| 📦 **Compute** | Cloud Run | Serverless deployment with auto-scaling |
+| 🗄️ **Data Layer** | BigQuery | Real-time market intelligence & analytics |
+| 🐍 **Runtime** | Python 3.12 | Core development language |
+| 🐳 **Containerization** | Docker | Portable & reproducible deployments |
 
 
 
