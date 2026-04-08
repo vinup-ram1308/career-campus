@@ -1,0 +1,5 @@
+google-adk[toolbox]>=1.0.0
+google-cloud-bigquery>=3.0.0
+fastapi
+uvicorn
+requests
